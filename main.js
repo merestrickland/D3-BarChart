@@ -7,6 +7,7 @@ let svg = d3.select("#container")
                   .append("svg")
                   .attr("width", w)
                   .attr("height", h)
+                  .attr("class", "svg")
 
   svg.selectAll("rect")
     .data(thisMonthsSteps)
